@@ -22,7 +22,8 @@ const app = express();
     // 解决表单解析问题
     // app.use(express.urlencoded({ extended: true })); 
     // app.use('/vue/admin', userRouter);
-    app.use('/plan', adminRouter)
+    app.use('/admin/music', adminRouter)
+    // app.use('/web/music', webRouter)
     // 公开静态资源文件夹 配置静态资源 img为虚拟路径必须加/ static真是路径
     app.use('/img/', express.static('./static'))
 app.listen(3000, function(){

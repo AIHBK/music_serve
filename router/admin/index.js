@@ -1,7 +1,7 @@
 const express = require('express');
 // 导入路由
 const adminMethods = require('../../router-methods/admin/methods');
-const planMethods = require('../../router-methods/admin/planMethods')
+const planMethods = require('../../router-methods/admin/musicMethods')
 const router = express.Router();
 const upload = require('../../upload/upload');
 
